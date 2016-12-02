@@ -8,7 +8,7 @@
 
 /***********************************************************************
  * Simulated Annealing Algorithm
- * Execute using ---> "./main <benchmark_file_name> <output_file_name>"
+ * Execute using this ---> "./main <benchmark_file_name> <output_file_name>"
  *********************************************************************/
 
 #include <iostream>
