@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		62FC26691DF2192B0032ED5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62FC26681DF2192B0032ED5F /* main.cpp */; };
+		62FC26711DF21C950032ED5F /* annealing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62FC266F1DF21C950032ED5F /* annealing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		62FC26651DF2192B0032ED5F /* Netlist-Partitioning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Netlist-Partitioning"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FC26681DF2192B0032ED5F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		62FC266F1DF21C950032ED5F /* annealing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = annealing.cpp; sourceTree = "<group>"; };
+		62FC26701DF21C950032ED5F /* annealing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = annealing.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				62FC26681DF2192B0032ED5F /* main.cpp */,
+				62FC266F1DF21C950032ED5F /* annealing.cpp */,
+				62FC26701DF21C950032ED5F /* annealing.hpp */,
 			);
 			path = "Netlist-Partitioning";
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62FC26691DF2192B0032ED5F /* main.cpp in Sources */,
+				62FC26711DF21C950032ED5F /* annealing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
