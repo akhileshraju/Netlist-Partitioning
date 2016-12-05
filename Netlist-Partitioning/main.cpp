@@ -26,8 +26,9 @@ int main(int argc, char *argv[]) {
         outputFilePath = argv[2];
     }
     else {
-        inputFilePath = "/Users/akhileshraju/Coding/Xcode/partitioningTool/Netlist-Partitioning/Netlist-Partitioning/Benchmarks/B1";
-        outputFilePath = "/Users/akhileshraju/Coding/Xcode/partitioningTool/Netlist-Partitioning/Netlist-Partitioning/Benchmarks/R1";
+        // Replace "" with benchmark file path and output file path 
+        inputFilePath = "";
+        outputFilePath = "";
     }
     simulatedAnnealing sa(inputFilePath);
     sa.performAnnealing(outputFilePath);
